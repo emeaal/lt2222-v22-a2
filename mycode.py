@@ -1,3 +1,5 @@
+import gzip
+import random
 import nltk
 from nltk.tokenize import WordPunctTokenizer
 from nltk.corpus import stopwords

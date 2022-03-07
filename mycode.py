@@ -50,7 +50,7 @@ def process_sentences(sampled_lines):
                 continue
             elif not word.isalpha():
                 continue
-            elif word == ".":
+            elif word == ".": #redundant?
                 continue
             else:
                 pos_pair = (word, pos)
